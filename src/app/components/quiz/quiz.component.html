@@ -1,0 +1,23 @@
+<div class="quiz_container">
+  <app-quiz-logo
+    image="assets/images/logo.png"
+    alt="Logo do BuzzFeed"
+    width="425"
+    height="78"
+    [title]="title"
+  ></app-quiz-logo>
+  <app-quiz-questions
+    *ngIf="!finished"
+    [question]="questionSelected.question"
+  ></app-quiz-questions>
+  <div *ngIf="!finished" class="quiz_options">
+    <button
+      *ngFor="let option of questionSelected.options; let i = index"
+      (click)="playerChoice(option.alias)"
+      class="btn_options"
+    >
+      {{ option.name }}
+    </button>
+  </div>
+  <app-quiz-results *ngIf="finished" [answer]="answer"></app-quiz-results>
+</div>

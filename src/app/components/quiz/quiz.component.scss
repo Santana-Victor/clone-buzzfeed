@@ -1,0 +1,38 @@
+.quiz_container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .quiz_options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+
+    button {
+      background-color: transparent;
+      color: #faebd7;
+      border-radius: 8px;
+      border: 1px solid #18ab29;
+      width: 50%;
+      display: inline-block;
+      cursor: pointer;
+      font-family: Arial, sans-serif;
+      font-size: 17px;
+      padding: 16px 31px;
+      text-shadow: 0 1px 0 #2f6627;
+    }
+
+    button:hover {
+      background-color: #5cbf2a;
+    }
+
+    button:active {
+      position: relative;
+      top: 1px;
+    }
+  }
+}

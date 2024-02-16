@@ -1,5 +1,5 @@
 {
-  "title": "Você seria um heroi ou vilão ?",
+  "title": "Você seria um herói ou vilão ?",
   "questions": [
     {
       "id": 1,
@@ -35,7 +35,7 @@
       "id": 4,
       "question": "Qual o seu maior foco ?",
       "options": [
-        { "id": 1, "name": "Ficar rico com poderes", "alias": "A" },
+        { "id": 1, "name": "Ficar rico", "alias": "A" },
         { "id": 2, "name": "Salvar a cidade", "alias": "B" }
       ]
     },
@@ -43,13 +43,13 @@
       "id": 5,
       "question": "Qual o seu apelido de super ser ?",
       "options": [
-        { "id": 1, "name": "O Terrivel", "alias": "A" },
+        { "id": 1, "name": "O Terrível", "alias": "A" },
         { "id": 2, "name": "Amigo da vizinhança", "alias": "B" }
       ]
     }
   ],
   "results": {
     "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "B": "Você muito provavelmente seria um super herói!"
   }
 }
